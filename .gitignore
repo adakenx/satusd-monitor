@@ -1,0 +1,26 @@
+# 敏感配置文件 - 绝不上传
+config.py
+upload_to_tencent.sh
+
+# 调试文件
+debug_page.html
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 日志
+*.log
+
