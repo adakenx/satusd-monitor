@@ -35,7 +35,7 @@ class SatUSDMonitor:
         self.last_heartbeat = None  # 上次心跳时间
         self.last_success_time = None  # 上次成功获取数据的时间
         self.max_failures_before_alert = 3  # 连续失败多少次后发送告警
-        self.heartbeat_interval_hours = 12  # 心跳间隔（小时）
+        self.heartbeat_interval_hours = 72  # 心跳间隔（小时，3天）
         
     def log(self, msg):
         """打印带时间戳的日志"""
